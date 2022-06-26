@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Bingbing_Example' do
+  pod 'Bingbing', :path => '../'
+
+  target 'Bingbing_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
